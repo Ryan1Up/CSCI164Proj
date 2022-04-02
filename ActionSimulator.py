@@ -1,0 +1,1 @@
+# ActionSimulator take an Initial State string, and a String of Actions and gives the output string
