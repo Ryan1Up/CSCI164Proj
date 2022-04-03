@@ -9,3 +9,21 @@ class Node:
 		self.zeroIndex = zeroIndex
 
 	
+	def __lt__(self, other):
+		if not other:
+			return False
+		else:
+			return self.path_cost < other.path_cost
+
+
+	def __eq__(self, other):
+		if not other:
+			return False
+		else:
+			return self.path_cost == other.path_cost
+
+	def __gt__(self, other):
+		if not other:
+			return False
+		else:
+			return self.path_cost > other.path_cost

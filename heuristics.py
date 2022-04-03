@@ -1,6 +1,8 @@
 # Hueristic functions for Search Functions
 
-def getOutOfPlace(state, goalState, boardSize) -> int:
+import math
+
+def get_out_of_place(state, goalState) -> int:
 	retVal = 0
 	for s in goalState:
 		if goalState.index(s) != state.index(s) and s != '0':
@@ -8,8 +10,9 @@ def getOutOfPlace(state, goalState, boardSize) -> int:
 
 	return retVal
 
-def getManhattanDistance(state, goalState, boardSize) -> int:
+def get_manhattan_distance(state, goalState) -> int:
 	retVal = 0
+	boardSize = math.sqrt(len(state))
 	for s in state:
 		if s != '0':
 			retVal += getManhattanForElement(s, state.index(s), goalState, boardSize)
