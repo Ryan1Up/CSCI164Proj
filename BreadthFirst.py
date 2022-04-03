@@ -16,7 +16,7 @@ def breadth_first_search(problem):
 	node = Node(problem.initial[:], None, "", 0, problem.initial.index("0"))
 	frontier = queue.Queue(0)
 	frontier.put(node)
-	reached = {''.join(node.state) : 1}
+	reached = {''.join(node.state) : True}
 	nodesExpanded = 0
 	while not frontier.empty():
 		node = frontier.get()
@@ -26,6 +26,6 @@ def breadth_first_search(problem):
 			if problem.isGoal(child.state):
 				return (child, nodesExpanded)
 			if not reached.get(hState):
-				reached[hState] = child.path_cost
+				reached[hState] = True
 				frontier.put(child)
 	return (Node("Failure", None, None, None, None), nodesExpanded)

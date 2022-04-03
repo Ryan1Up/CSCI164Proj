@@ -27,7 +27,7 @@ class Problem():
 			retList.append(Node(tempList, node, act, cost, tempList.index("0")))
 		return retList
 
-	def printSoltionMetrics(node, expandedNodes, functionName, originalState):
+	def printSolutionMetrics(node, expandedNodes, functionName, originalState):
 		nodePath = Problem.buildNodePath(node)
 
 		print(f'{"Function Name: ":22}', functionName)
@@ -81,7 +81,7 @@ class Problem():
 			elif action == "r":
 				Problem.swap(zIndex, zIndex + 1, state)
 
-	def isValidMove(state, action, zIndex):
+	def isValidMove(state, action, zIndex):	
 		if not Problem.actionDict.get(action):
 			return False
 		boardSize = int(math.sqrt(len(state)))
