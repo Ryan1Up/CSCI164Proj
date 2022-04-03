@@ -23,6 +23,7 @@ def depth_first_search_modified(problem, limit):
 			for child in problem.expandNode(node):
 				frontier.put(child)
 	return (limit, nodesExpanded)
+	
 def iterative_deepening_w_depth_first_search(problem, max_depth):
 	for i in range(1, max_depth):
 		(node, nodesExpanded) = depth_first_search_modified(problem, i)
