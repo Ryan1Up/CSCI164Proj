@@ -29,4 +29,3 @@ def getConversion(element) -> int:
 		return 14 - abs(int(element, 16) - int("F", 16))
 	else:
 		return int(element) - 1
-
