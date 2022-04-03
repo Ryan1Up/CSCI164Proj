@@ -6,7 +6,6 @@ class Problem():
 
 	def __init__(self, initial, goal, boardSize):
 		self.initial = initial[:]
-		self.zeroIndex = initial.index("0")
 		self.boardSize = boardSize
 		self.goalState = goal[:]
 
@@ -22,9 +21,6 @@ class Problem():
 
 	def action_cost(self, state, action, newState) -> int:
 		return 1
-
-	def getMostRecentZeroIndex(self) -> int:
-		return self.zeroIndex 
 
 	def executeActionList(state, actions):
 		for act in actions.lower():
@@ -43,6 +39,8 @@ class Problem():
 				Problem.swap(zIndex, zIndex + 1, state)
 
 	def isValidMove(state, action, zIndex):
+		if not actionDict.get(action):
+			return False
 		boardSize = int(math.sqrt(len(state)))
 		if action == " u":
 			return zIndex > boardSize - 1
