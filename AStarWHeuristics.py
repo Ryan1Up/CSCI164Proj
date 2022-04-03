@@ -25,17 +25,3 @@ def a_star_search_with_heuristic(problem, heuristic):
 				reached[hState] = child.path_cost
 				frontier.put((child.path_cost + heuristic(child.state, problem.goalState), child.path_cost, child))
 	return (Node("Failure", None, None, None, None), nodesExpanded)
-
-
-orig = "087654321"
-
-p = Problem(orig, "123456780")
-
-(n1, e1) = a_star_search_with_heuristic(p, heuristics.get_out_of_place)
-
-(n2, e2) = a_star_search_with_heuristic(p, heuristics.get_manhattan_distance)
-
-Problem.printSolutionMetrics(n1, e1, "A Start w Out of Place", orig)
-print()
-Problem.printSolutionMetrics(n2, e2, "A Start w Manhattan", orig)
-
