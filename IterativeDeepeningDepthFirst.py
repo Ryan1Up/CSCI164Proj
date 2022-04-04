@@ -27,7 +27,7 @@ def depth_first_search_modified(problem, limit):
 def iterative_deepening_w_depth_first_search(problem, max_depth):
 	for i in range(1, max_depth):
 		(node, nodesExpanded) = depth_first_search_modified(problem, i)
-		if not node == i:
+		if  (isinstance(node, Node)) or not node == i:
 			return (node, nodesExpanded)
 	return (Node("Failure", None, None, None, None), nodesExpanded)
 

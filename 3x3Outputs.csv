@@ -1,0 +1,142 @@
+Function Name, Final State, Nodes Expanded, Move Set, Path Cost, Heuristic
+breadth_first_search,123456780,17317,ddluurdlldrruuldrd,19,10.0
+depth_first_search,123456780,24427,ddlurulddlurrulddlurdruuldrd,29,10.0
+iterative_deepening_w_depth_first_search,123456780,411,ddluurdlldrruuldrd,19,10.0
+a_star_search_with_heuristic: get_out_of_place,123456780,1538,ddluurdlldrruuldrd,19,10.0
+a_star_search_with_heuristic: get_manhattan_distance,123456780,427,ddluurdlldrruuldrd,19,10.0
+iterative_deepening_w_a_star_heuristic: get_out_of_place,123456780,1538,ddluurdlldrruuldrd,19,10.0
+iterative_deepening_w_a_star_heuristic: get_manhattan_distance,123456780,427,ddluurdlldrruuldrd,19,10.0
+breadth_first_search,123456780,119025,rdlurulldrdluruldrrulddr,25,14.0
+depth_first_search,Failure,36755
+iterative_deepening_w_depth_first_search,Failure,40265
+a_star_search_with_heuristic: get_out_of_place,123456780,22404,rdlurulldrdluruldrrulddr,25,14.0
+a_star_search_with_heuristic: get_manhattan_distance,123456780,2843,rdlurulldrdluruldrrulddr,25,14.0
+iterative_deepening_w_a_star_heuristic: get_out_of_place,123456780,22404,rdlurulldrdluruldrrulddr,25,14.0
+iterative_deepening_w_a_star_heuristic: get_manhattan_distance,123456780,2843,rdlurulldrdluruldrrulddr,25,14.0
+breadth_first_search,123456780,173418,lulurdldruruldlurdruldlurdrd,29,16.0
+depth_first_search,Failure,25045
+iterative_deepening_w_depth_first_search,Failure,37362
+a_star_search_with_heuristic: get_out_of_place,123456780,71721,lurulldrulddruruldlurrdlurdd,29,16.0
+a_star_search_with_heuristic: get_manhattan_distance,123456780,8564,luruldlurdruldldrulurdruldrd,29,16.0
+iterative_deepening_w_a_star_heuristic: get_out_of_place,123456780,71721,lurulldrulddruruldlurrdlurdd,29,16.0
+iterative_deepening_w_a_star_heuristic: get_manhattan_distance,123456780,8564,luruldlurdruldldrulurdruldrd,29,16.0
+breadth_first_search,123456780,109029,dllurdldrrullurddruulddr,25,14.0
+depth_first_search,123456780,9445,ddluulddruurdlldrruuldruldldrr,31,14.0
+iterative_deepening_w_depth_first_search,Failure,48352
+a_star_search_with_heuristic: get_out_of_place,123456780,17565,dllurdldrrullurddruulddr,25,14.0
+a_star_search_with_heuristic: get_manhattan_distance,123456780,1272,dllurdldrrullurddruulddr,25,14.0
+iterative_deepening_w_a_star_heuristic: get_out_of_place,123456780,17565,dllurdldrrullurddruulddr,25,14.0
+iterative_deepening_w_a_star_heuristic: get_manhattan_distance,123456780,1272,dllurdldrrullurddruulddr,25,14.0
+breadth_first_search,123456780,112697,dldlurdruulldrdrululddrr,25,12.0
+depth_first_search,Failure,27626
+iterative_deepening_w_depth_first_search,Failure,48352
+a_star_search_with_heuristic: get_out_of_place,123456780,18513,dldlurdruulldrdrululddrr,25,12.0
+a_star_search_with_heuristic: get_manhattan_distance,123456780,2588,dldlurdruulldrdrululddrr,25,12.0
+iterative_deepening_w_a_star_heuristic: get_out_of_place,123456780,18513,dldlurdruulldrdrululddrr,25,12.0
+iterative_deepening_w_a_star_heuristic: get_manhattan_distance,123456780,2588,dldlurdruulldrdrululddrr,25,12.0
+breadth_first_search,123456780,64864,drrulldrdlurdruuldldrr,23,18.0
+depth_first_search,Failure,27625
+iterative_deepening_w_depth_first_search,Failure,27247
+a_star_search_with_heuristic: get_out_of_place,123456780,7033,drrullddruldrruuldldrr,23,18.0
+a_star_search_with_heuristic: get_manhattan_distance,123456780,370,drrulldrdlurdruuldldrr,23,18.0
+iterative_deepening_w_a_star_heuristic: get_out_of_place,123456780,7033,drrullddruldrruuldldrr,23,18.0
+iterative_deepening_w_a_star_heuristic: get_manhattan_distance,123456780,370,drrulldrdlurdruuldldrr,23,18.0
+breadth_first_search,123456780,7636,rdluulddruuldrdr,17,10.0
+depth_first_search,123456780,24677,drululddruuldrdluurddrululddrr,31,10.0
+iterative_deepening_w_depth_first_search,123456780,1476,rdluulddruuldrdr,17,10.0
+a_star_search_with_heuristic: get_out_of_place,123456780,690,rdluulddruuldrdr,17,10.0
+a_star_search_with_heuristic: get_manhattan_distance,123456780,173,rdluulddruuldrdr,17,10.0
+iterative_deepening_w_a_star_heuristic: get_out_of_place,123456780,690,rdluulddruuldrdr,17,10.0
+iterative_deepening_w_a_star_heuristic: get_manhattan_distance,123456780,173,rdluulddruuldrdr,17,10.0
+breadth_first_search,123456780,33676,lurdrulldrdlurrdlurd,21,16.0
+depth_first_search,123456780,34166,ldruuldruldrdruulddruullddrr,29,16.0
+iterative_deepening_w_depth_first_search,123456780,13821,lurdrullddruldrruldr,21,16.0
+a_star_search_with_heuristic: get_out_of_place,123456780,3869,lurdrulldrdlurrdlurd,21,16.0
+a_star_search_with_heuristic: get_manhattan_distance,123456780,325,lurdrulldrdlurdruldr,21,16.0
+iterative_deepening_w_a_star_heuristic: get_out_of_place,123456780,3869,lurdrulldrdlurrdlurd,21,16.0
+iterative_deepening_w_a_star_heuristic: get_manhattan_distance,123456780,325,lurdrulldrdlurdruldr,21,16.0
+breadth_first_search,123456780,147303,rdldrurdluldruulddruruldrd,27,14.0
+depth_first_search,Failure,27625
+iterative_deepening_w_depth_first_search,Failure,27247
+a_star_search_with_heuristic: get_out_of_place,123456780,37968,rdldrurdluldruulddruruldrd,27,14.0
+a_star_search_with_heuristic: get_manhattan_distance,123456780,3665,rdldrurdluldruulddruruldrd,27,14.0
+iterative_deepening_w_a_star_heuristic: get_out_of_place,123456780,37968,rdldrurdluldruulddruruldrd,27,14.0
+iterative_deepening_w_a_star_heuristic: get_manhattan_distance,123456780,3665,rdldrurdluldruulddruruldrd,27,14.0
+breadth_first_search,123456780,147822,rurulldrdlurrulldrdruulddr,27,20.0
+depth_first_search,Failure,25045
+iterative_deepening_w_depth_first_search,Failure,45062
+a_star_search_with_heuristic: get_out_of_place,123456780,36788,rurulldrdlurrulldrdruulddr,27,20.0
+a_star_search_with_heuristic: get_manhattan_distance,123456780,1375,rurullddrurullddrruulldrdr,27,20.0
+iterative_deepening_w_a_star_heuristic: get_out_of_place,123456780,36788,rurulldrdlurrulldrdruulddr,27,20.0
+iterative_deepening_w_a_star_heuristic: get_manhattan_distance,123456780,1375,rurullddrurullddrruulldrdr,27,20.0
+breadth_first_search,123456780,110495,drrdlurulldrdlurrdluurdd,25,16.0
+depth_first_search,Failure,27625
+iterative_deepening_w_depth_first_search,Failure,27247
+a_star_search_with_heuristic: get_out_of_place,123456780,17305,drrdlurulldrdlurrdluurdd,25,16.0
+a_star_search_with_heuristic: get_manhattan_distance,123456780,1034,drrdlurulldrdlurrdluurdd,25,16.0
+iterative_deepening_w_a_star_heuristic: get_out_of_place,123456780,17305,drrdlurulldrdlurrdluurdd,25,16.0
+iterative_deepening_w_a_star_heuristic: get_manhattan_distance,123456780,1034,drrdlurulldrdlurrdluurdd,25,16.0
+breadth_first_search,123456780,106524,luuldrrulddruulldrdlurdr,25,16.0
+depth_first_search,Failure,25045
+iterative_deepening_w_depth_first_search,Failure,37362
+a_star_search_with_heuristic: get_out_of_place,123456780,18107,luuldrrulddruulldrdlurdr,25,16.0
+a_star_search_with_heuristic: get_manhattan_distance,123456780,1659,luuldrrulddruullddruldrr,25,16.0
+iterative_deepening_w_a_star_heuristic: get_out_of_place,123456780,18107,luuldrrulddruulldrdlurdr,25,16.0
+iterative_deepening_w_a_star_heuristic: get_manhattan_distance,123456780,1659,luuldrrulddruullddruldrr,25,16.0
+breadth_first_search,123456780,141084,rrdlldrrullurrdldlurulddrr,27,16.0
+depth_first_search,Failure,27625
+iterative_deepening_w_depth_first_search,Failure,27247
+a_star_search_with_heuristic: get_out_of_place,123456780,37998,rrdlldrrullurrdldlurulddrr,27,16.0
+a_star_search_with_heuristic: get_manhattan_distance,123456780,4034,ddrrullurddruuldlurdrulddr,27,16.0
+iterative_deepening_w_a_star_heuristic: get_out_of_place,123456780,37998,rrdlldrrullurrdldlurulddrr,27,16.0
+iterative_deepening_w_a_star_heuristic: get_manhattan_distance,123456780,4034,ddrrullurddruuldlurdrulddr,27,16.0
+breadth_first_search,123456780,33412,dllurddlurrullddrurd,21,10.0
+depth_first_search,Failure,27626
+iterative_deepening_w_depth_first_search,123456780,4850,lddruuldlurdrulddruldr,23,10.0
+a_star_search_with_heuristic: get_out_of_place,123456780,3432,dllurddlurrullddrurd,21,10.0
+a_star_search_with_heuristic: get_manhattan_distance,123456780,553,dllurddlurrullddrurd,21,10.0
+iterative_deepening_w_a_star_heuristic: get_out_of_place,123456780,3432,dllurddlurrullddrurd,21,10.0
+iterative_deepening_w_a_star_heuristic: get_manhattan_distance,123456780,553,dllurddlurrullddrurd,21,10.0
+breadth_first_search,123456780,68397,drdlururddluuldrurdldr,23,16.0
+depth_first_search,123456780,8229,ddruulddruurddluuldrurddlurd,29,16.0
+iterative_deepening_w_depth_first_search,123456780,6596,ddruurdlldrurdluuldrurdldr,27,16.0
+a_star_search_with_heuristic: get_out_of_place,123456780,7401,drdlururddluuldrurdldr,23,16.0
+a_star_search_with_heuristic: get_manhattan_distance,123456780,531,drdlururddluuldrurdldr,23,16.0
+iterative_deepening_w_a_star_heuristic: get_out_of_place,123456780,7401,drdlururddluuldrurdldr,23,16.0
+iterative_deepening_w_a_star_heuristic: get_manhattan_distance,123456780,531,drdlururddluuldrurdldr,23,16.0
+breadth_first_search,123456780,103847,luldruuldrurdluldrurdldr,25,14.0
+depth_first_search,Failure,25045
+iterative_deepening_w_depth_first_search,Failure,37362
+a_star_search_with_heuristic: get_out_of_place,123456780,18021,luldruuldrurdluldrurdldr,25,14.0
+a_star_search_with_heuristic: get_manhattan_distance,123456780,1648,luldruuldrurdluldrurdldr,25,14.0
+iterative_deepening_w_a_star_heuristic: get_out_of_place,123456780,18021,luldruuldrurdluldrurdldr,25,14.0
+iterative_deepening_w_a_star_heuristic: get_manhattan_distance,123456780,1648,luldruuldrurdluldrurdldr,25,14.0
+breadth_first_search,123456780,57751,rruulldrrdluulddrruldr,23,18.0
+depth_first_search,Failure,25045
+iterative_deepening_w_depth_first_search,123456780,42148,rruulddrululdrdrululddrruldr,29,18.0
+a_star_search_with_heuristic: get_out_of_place,123456780,7472,rruuldlurdrdluldrruldr,23,18.0
+a_star_search_with_heuristic: get_manhattan_distance,123456780,551,rruuldrdlulurdldrruldr,23,18.0
+iterative_deepening_w_a_star_heuristic: get_out_of_place,123456780,7472,rruuldlurdrdluldrruldr,23,18.0
+iterative_deepening_w_a_star_heuristic: get_manhattan_distance,123456780,551,rruuldrdlulurdldrruldr,23,18.0
+breadth_first_search,123456780,30373,ldldruruldlurrddlurd,21,12.0
+depth_first_search,Failure,27626
+iterative_deepening_w_depth_first_search,123456780,6730,lddlurrulddluurrddlurd,23,12.0
+a_star_search_with_heuristic: get_out_of_place,123456780,3474,ldldruruldlurrddlurd,21,12.0
+a_star_search_with_heuristic: get_manhattan_distance,123456780,586,ldruldldrulurrddlurd,21,12.0
+iterative_deepening_w_a_star_heuristic: get_out_of_place,123456780,3474,ldldruruldlurrddlurd,21,12.0
+iterative_deepening_w_a_star_heuristic: get_manhattan_distance,123456780,586,ldruldldrulurrddlurd,21,12.0
+breadth_first_search,123456780,113873,urdruulddruldlurdruuldrd,25,14.0
+depth_first_search,Failure,25045
+iterative_deepening_w_depth_first_search,Failure,45062
+a_star_search_with_heuristic: get_out_of_place,123456780,18099,urdruulddruldlurdruuldrd,25,14.0
+a_star_search_with_heuristic: get_manhattan_distance,123456780,1808,urdruulddruldlurdruuldrd,25,14.0
+iterative_deepening_w_a_star_heuristic: get_out_of_place,123456780,18099,urdruulddruldlurdruuldrd,25,14.0
+iterative_deepening_w_a_star_heuristic: get_manhattan_distance,123456780,1808,urdruulddruldlurdruuldrd,25,14.0
+breadth_first_search,123456780,2701,dldruuldrdlurd,15,6.0
+depth_first_search,123456780,17646,ddlurdluruldrdluuldrrdlulurddr,31,6.0
+iterative_deepening_w_depth_first_search,123456780,803,dldruulddruldr,15,6.0
+a_star_search_with_heuristic: get_out_of_place,123456780,286,dldruuldrdlurd,15,6.0
+a_star_search_with_heuristic: get_manhattan_distance,123456780,110,dldruuldrdlurd,15,6.0
+iterative_deepening_w_a_star_heuristic: get_out_of_place,123456780,286,dldruuldrdlurd,15,6.0
+iterative_deepening_w_a_star_heuristic: get_manhattan_distance,123456780,110,dldruuldrdlurd,15,6.0
+ 
