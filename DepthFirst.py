@@ -18,6 +18,8 @@ def depth_first_search(problem):
 		elif node.path_cost + 1 > 30:
 			continue
 		elif not reached.get(hState):
+			if(nodesExpanded >= 2000000):
+				break
 			nodesExpanded += 1
 			reached[hState] = True
 			for child in problem.expandNode(node):

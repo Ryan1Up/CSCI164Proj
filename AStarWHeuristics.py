@@ -18,6 +18,8 @@ def a_star_search_with_heuristic(problem, heuristic):
 		(val, val2, node) = frontier.get()
 		if problem.isGoal(node.state):
 			return (node, nodesExpanded)
+		if(nodesExpanded >= 2000000):
+			break
 		nodesExpanded += 1
 		for child in problem.expandNode(node):
 			hState = ''.join(child.state)

@@ -17,6 +17,8 @@ def a_star_search_with_heuristic_and_limit(problem, heuristic, limit):
 			return (node, nodesExpanded)
 		if node.path_cost + 1 > limit:
 			return (limit, nodesExpanded)
+		if(nodesExpanded >= 2000000):
+			break
 		nodesExpanded += 1
 		for child in problem.expandNode(node):
 			hState = ''.join(child.state)

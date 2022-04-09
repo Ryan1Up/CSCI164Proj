@@ -20,6 +20,8 @@ def breadth_first_search(problem):
 	nodesExpanded = 0
 	while not frontier.empty():
 		node = frontier.get()
+		if(nodesExpanded >= 2000000):
+			break
 		nodesExpanded += 1
 		for child in problem.expandNode(node):
 			hState = ''.join(child.state)
